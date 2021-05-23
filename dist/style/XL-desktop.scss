@@ -1,0 +1,69 @@
+@import "variables";
+@media all and (min-width: 1200px) {
+
+  header {
+    .user {
+      .user-info {
+        .user-title {
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+      .user-ico {
+        width: 38px;
+        height: 38px;
+      }
+      .user-status {
+        .user-status-title {
+          font-size: 16px;
+          line-height: 18px;
+          color: $sub-font-color;
+        }
+      }
+    }
+  }
+  article{
+    background-image: linear-gradient(360deg, rgba(33, 50, 94, 0.8) 12.59%, rgba(33, 50, 94, 0.8) 101.31%),
+    url("../img/desctop-bg.png");
+
+    .login-form {
+      .input-group {
+        .input-description {
+          margin-right: 30%;
+        }
+      }
+      .btn-group {
+        input {
+          font-size: 24px;
+          line-height: 27px;
+          font-family: $font;
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (min-width: 1800px) {
+  article {
+    .login-form {
+      .input-group {
+        .input-description {
+          margin-right: 35%;
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 2300px) {
+  article {
+    .login-form {
+      .input-group {
+        .input-description {
+          margin-right: 40%;
+        }
+      }
+    }
+  }
+}
