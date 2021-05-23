@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>SHLOMO SIXT</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.min.css">
+</head>
+<body>
+    <header>
+        <div class="user">
+            <div class="user-info">
+                <p class="user-title">קולקטיב חברת חשמל  <br>שם הסוכן ישראל ישראלי</p>
+                <p class="user-title not-mobile">מספר 123456</p>
+            </div>
+            <div class="user-ico">
+                <img src="img/user-ico.png" alt="user-ico">
+            </div>
+            <div class="user-status">
+                <p class="user-status-title">
+                    שלום, חיים משה
+                </p>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="some-info">
+            <h1 class="some-info-title">
+                לקבלת קוד הכניסה הזן את <br> מספר הטלפון הנייד
+            </h1>
+            <div class="some-info-ico">
+                <img src="img/article-user-ico.png">
+            </div>
+        </div>
+        <form action=""
+              method="POST"
+              name="login-form"
+              class="login-form">
+            <h2 class="login-form-title">
+                הזן את קוד הכניסה, אם לא קיבלת קוד לחץ על שליחת קוד חדש
+            </h2>
+            <div class="input-group">
+                <p class="input-description">
+                    שם משתמש
+                </p>
+               <div class="close-btn">
+                   <input type="text"
+                          name="name"
+                          placeholder=""
+                          class="input-text"
+                          dir="rtl"
+                   >
+               </div>
+                <p class="input-description">
+                    סיסמא
+                </p>
+                <input type="password"
+                       name="password"
+                       placeholder=""
+                       class="input-text"
+                       dir="rtl"
+                >
+            </div>
+            <div class="btn-group">
+                <input type="button"
+                       value="< כניסה"
+                       name="login"
+                       class="login-btn"
+
+                >
+                <input type="button"
+                       value="ביטול"
+                       name="reg"
+                       class="reg-btn"
+                >
+            </div>
+        </form>
+    </article>
+
+    <script src="js/index.min.js"></script>
+</body>
+</html>

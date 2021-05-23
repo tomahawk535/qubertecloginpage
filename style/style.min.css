@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+body {
+  max-height: 100vh
+}
+header .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 16px 11px
+}
+header .user .user-info {
+  margin-left: auto;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 11px
+}
+header .user .user-info .user-title {
+  font-size: 10px;
+  line-height: 10px;
+  font-family: Arimo,sans-serif;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #009c41
+}
+header .user .user-info .not-mobile {
+  display: none
+}
+header .user .user-status {
+  text-align: right;
+  font-family: Arimo,sans-serif;
+  width: 100%;
+  margin-right: 45px;
+  color: red
+}
+header .user .user-status .user-status-title {
+  font-size: 10px;
+  line-height: 10px;
+  font-family: Arimo,sans-serif
+}
+header .user .user-ico {
+  position: relative;
+  right: 0;
+  top: 7px;
+  width: 30px;
+  height: 30px;
+  background-color: #009c41;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px
+}
+header .user .user-ico img {
+  width: 60%
+}
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(12.59%,rgba(33,50,94,.8)),color-stop(101.31%,rgba(33,50,94,.8))),url(../img/mobile-bg.png);
+  background-image: -o-linear-gradient(bottom,rgba(33,50,94,.8) 12.59%,rgba(33,50,94,.8) 101.31%),url(../img/mobile-bg.png);
+  background-image: linear-gradient(360deg,rgba(33,50,94,.8) 12.59%,rgba(33,50,94,.8) 101.31%),url(../img/mobile-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 16px 6%;
+  min-height: 90vh
+}
+article .some-info {
+  width: 100%;
+  border-bottom: 4px solid #fff;
+  padding-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+article .some-info .some-info-title {
+  -ms-flex-preferred-size: 80%;
+  flex-basis: 80%;
+  text-align: right;
+  font-family: Arimo,sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px
+}
+article .some-info .some-info-ico {
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+article .some-info .some-info-ico img {
+  width: 60%
+}
+article .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 48px;
+  text-align: center
+}
+article .login-form .login-form-title {
+  font-family: Arimo,sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 56px
+}
+article .login-form .input-group {
+  width: 100%;
+  text-align: right
+}
+article .login-form .input-group .input-description {
+  font-family: Arimo,sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  margin-right: 20px;
+  position: relative
+}
+article .login-form .input-group .close-btn {
+  position: relative;
+  width: 100%
+}
+article .login-form .input-group .close-btn:before {
+  content: '';
+  position: absolute;
+  color: #1d4076;
+  top: 20%;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/Vector.png);
+  background-position: center;
+  background-size: 100%;
+  cursor: pointer
+}
+article .login-form .input-group .input-text {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  outline: 0;
+  -webkit-appearance: none;
+  border: none;
+  margin: 12px 0 56px;
+  padding: 0 15px
+}
+article .login-form .btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+article .login-form .btn-group input {
+  -ms-flex-preferred-size: 47%;
+  flex-basis: 47%;
+  outline: 0;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 0;
+  color: #fff;
+  cursor: pointer;
+  -webkit-appearance: none
+}
+article .login-form .btn-group .login-btn {
+  background-color: #c4c4c4
+}
+article .login-form .btn-group .reg-btn {
+  background-color: #009c41
+}
+@media all and (min-width:735px) {
+  header .user {
+    padding: 16px 0 0
+  }
+  header .user .user-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+  header .user .user-info .not-mobile {
+    display: block
+  }
+  header .user .user-info .user-title {
+    -ms-flex-item-align: end;
+    align-self: flex-end
+  }
+  header .user .user-ico {
+    top: 0;
+    margin-right: 2%
+  }
+  header .user .user-status {
+    margin-right: 0;
+    margin-top: 16px;
+    padding: 16px 8%;
+    background-color: #f5f5f5
+  }
+  article {
+    padding: 48px 8%
+  }
+  article .some-info {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    max-width: 1076px;
+    width: 80%;
+    padding: 0;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+  }
+  article .some-info br {
+    display: none
+  }
+  article .some-info .some-info-title {
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 36px;
+    line-height: 38px;
+    margin-bottom: 12px;
+    -ms-flex-preferred-size: 90%;
+    flex-basis: 90%
+  }
+  article .some-info .some-info-ico {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-width: 65px
+  }
+  article .some-info .some-info-ico img {
+    width: 100%
+  }
+  article .login-form {
+    width: 60%
+  }
+  article .login-form .input-group {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center
+  }
+  article .login-form .input-group .close-btn {
+    max-width: 350px;
+    margin: 0 auto
+  }
+  article .login-form .input-group .input-text {
+    max-width: 350px
+  }
+  article .login-form .input-group .input-description {
+    text-align: right;
+    margin-right: 20%
+  }
+  article .login-form .btn-group {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  article .login-form .btn-group input {
+    max-width: 350px;
+    margin: 0 20px
+  }
+}
+@media all and (min-width:1023px) {
+  header .user .user-status {
+    padding: 16px 5%
+  }
+}
+@media all and (min-width:1200px) {
+  header .user .user-info .user-title {
+    font-size: 16px;
+    line-height: 18px
+  }
+  header .user .user-ico {
+    width: 38px;
+    height: 38px
+  }
+  header .user .user-status .user-status-title {
+    font-size: 16px;
+    line-height: 18px;
+    color: #888
+  }
+  article {
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(12.59%,rgba(33,50,94,.8)),color-stop(101.31%,rgba(33,50,94,.8))),url(../img/desctop-bg.png);
+    background-image: -o-linear-gradient(bottom,rgba(33,50,94,.8) 12.59%,rgba(33,50,94,.8) 101.31%),url(../img/desctop-bg.png);
+    background-image: linear-gradient(360deg,rgba(33,50,94,.8) 12.59%,rgba(33,50,94,.8) 101.31%),url(../img/desctop-bg.png)
+  }
+  article .login-form .input-group .input-description {
+    margin-right: 30%
+  }
+  article .login-form .btn-group input {
+    font-size: 24px;
+    line-height: 27px;
+    font-family: Arimo,sans-serif
+  }
+}
+@media all and (min-width:1800px) {
+  article .login-form .input-group .input-description {
+    margin-right: 35%
+  }
+}
+@media all and (min-width:2300px) {
+  article .login-form .input-group .input-description {
+    margin-right: 40%
+  }
+}
